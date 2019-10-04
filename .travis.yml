@@ -10,4 +10,4 @@ script:
 after_success:
   - cd target
   - ls
-  - java -jar projeto-base-0.0.1-SNAPSHOT-SNAPSHOT.jar
+  - java -jar projeto-base-0.0.1-SNAPSHOT.jar
