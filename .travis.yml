@@ -7,7 +7,7 @@ jdk:
 script:
   - mvn install
 
-after_sucess: 
+after_success:
   - cd target
   - ls
-  - java -jar Projeto-0.0.1-SNAPSHOT-SNAPSHOT.jar
+  - java -jar projeto-base-0.0.1-SNAPSHOT-SNAPSHOT.jar
