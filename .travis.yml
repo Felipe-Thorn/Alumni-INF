@@ -3,7 +3,11 @@ language: java
 
 jdk:
   - openjdk9
-  
-  
+   
 script:
   - mvn install
+
+after_sucess: 
+  - cd target
+  - ls
+  - java -jar Projeto-0.0.1-SNAPSHOT-SNAPSHOT.jar
